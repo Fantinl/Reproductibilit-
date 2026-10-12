@@ -1,0 +1,24 @@
+from math import pi
+from random import random,randint 
+def func():
+    compteur_v=0
+    compteur_f=0
+    tot=0
+    res=0
+    for i in range(1,100):
+        tot+=res
+        for i in range(1,100):
+            a=random()
+            b=random()
+            c=random()
+            if ((a+b)+c)==a+(b+c):
+                compteur_v+=1
+            else:
+                compteur_f+=1
+            res=round(compteur_v/(compteur_v+compteur_f)*100,2)
+        print(str(round(compteur_v/(compteur_v+compteur_f)*100,2)) +" %" )
+    print(tot/100)
+    return(compteur_v/(compteur_v+compteur_f))
+
+func()
+
