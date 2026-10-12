@@ -1,24 +1,18 @@
-from math import pi
-from random import random,randint 
-def func():
-    compteur_v=0
-    compteur_f=0
-    tot=0
-    res=0
-    for i in range(1,100):
-        tot+=res
-        for i in range(1,100):
-            a=random()
-            b=random()
-            c=random()
-            if ((a+b)+c)==a+(b+c):
-                compteur_v+=1
-            else:
-                compteur_f+=1
-            res=round(compteur_v/(compteur_v+compteur_f)*100,2)
-        print(str(round(compteur_v/(compteur_v+compteur_f)*100,2)) +" %" )
-    print(tot/100)
-    return(compteur_v/(compteur_v+compteur_f))
+from random import random
+def main():
+    equal_count = 0
 
-func()
+    for _ in range(10000):
+        x = random()
+        y = random()
+        z = random()
+        if (x + y) + z == x + (y + z):
+            equal_count += 1
 
+    percentage = equal_count / 10000 * 100
+    with open("answer_associativity.txt", "w", encoding="utf-8") as answer_file:
+        answer_file.write(
+            f"Equal: {equal_count}/{10000} ({percentage:.2f}%)\n"
+        )
+
+main()
