@@ -7,7 +7,17 @@ int main(){
         e=(e-1)*i;
     }
 
-    printf("%E\n",(e-1));
+    FILE *fichier = fopen("answer_banking.txt", "w");
+
+    if (fichier == NULL) {
+        printf("Erreur lors de l'ouverture du fichier.\n");
+        return 1;
+    }
+
+    fprintf(fichier,"%E\n",(e-1));
+
+    fclose(fichier);
+
 
     return 0;
 }

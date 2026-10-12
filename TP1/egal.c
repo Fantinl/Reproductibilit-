@@ -23,6 +23,15 @@ int main(){
 
     }
 
-    printf("%f pourcents\n",(100-compt/100));
+    FILE *fichier = fopen("answer_associativity.txt", "w");
+
+    if (fichier == NULL) {
+        printf("Erreur lors de l'ouverture du fichier.\n");
+        return 1;
+    }
+
+    fprintf(fichier, "%f pourcents\n",(100-compt/100));
+
+    fclose(fichier);
     return 0;
 }
