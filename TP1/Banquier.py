@@ -5,6 +5,8 @@ def func():
         val*=i
         print(val)
     print(val)
-    return val
-
+    with open("answer_banquier.txt", "w", encoding="utf-8") as answer_file:
+            answer_file.write(
+                f"Résultat: {val})\n"
+            )    
 func()
