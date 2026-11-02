@@ -17,3 +17,12 @@ Le lancer, pour récupérer les fichiers dans TP1:
 ```
 docker run --rm -v "$(pwd)":/out tp1-c
 ```
+
+# Lab 3
+## Part 1
+
+| Program  | Répétitions   | Système exploitation | Librairie | Résultat |
+| ------- | ------------- | ---------- |---------- | ---------- |
+| Python   | 10000 | MacOS 26 | random |82,54 | 
+| JavaScript (ChatGpt)  |10000  | MacOS 27 | random | 74.82|
+| Python (Gemini, Pro.1)   | 100000    | Ubuntu | NumpyPy | 82,75 |
