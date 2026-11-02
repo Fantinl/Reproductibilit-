@@ -1,0 +1,11 @@
+import random
+    
+def check_property(repetitions):
+    holds = 0
+    for _ in range(repetitions):
+        x, y, z = random.random(), random.random(), random.random()
+        if {{ lhs }} == {{ rhs }}:
+            holds += 1
+    return 100 * holds / repetitions
+
+print(check_property({{ repetitions }}))

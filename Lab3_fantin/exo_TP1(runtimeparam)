@@ -1,0 +1,21 @@
+from random import random
+def main():
+    
+    rep =[1000,10000,100000,1000000]
+
+    for el in rep: 
+        equal_count = 0
+        for _ in range(el):
+            x = random()
+            y = random()
+            z = random()
+            if (x + y) + z == x + (y + z):
+                equal_count += 1
+
+        percentage = equal_count / el * 100
+        with open("answer_associativity.txt", "a", encoding="utf-8") as answer_file:
+            answer_file.write(
+                f"Equal: {equal_count}/{el} ({percentage:.2f}%) (pour {el} rep) \n"
+            )
+
+main()
