@@ -17,7 +17,7 @@ int main(){
     
         //printf("%f %f %f\n",x,y,z);
 
-        if ((x+y)+z != x+(y+z)){
+        if (x*(y+z) != x*y+x*z){
             compt++;
         }
 
