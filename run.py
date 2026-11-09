@@ -2,12 +2,14 @@
 
     python run.py
 
-Seules les lignes du langage géré (TEMPLATES) et de l'OS courant sont lancées :
+Seules les lignes d'un langage géré (LANGUAGES) et de l'OS courant sont lancées :
 sur Ubuntu les lignes Systeme=Ubuntu, sur macOS les lignes Systeme=MacOS.
+Les lignes C dont le compilateur n'est pas installé sont ignorées.
 Résultats : results/results_<OS>.csv, une ligne par exécution.
 """
 import csv
 import platform
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -18,40 +20,69 @@ SAMPLE = Path("configs/sample.csv")
 OUT = Path("generated")
 RESULTS = Path("results")
 RUNS = 5
+CFLAGS = ["-O2"]
 
-TEMPLATES = {"Python": Path("templates/assoc.py.jinja")}
+# Pour chaque langage : son template, l'extension du fichier généré, la commande qui le lance
+# (rien pour le C : on lance directement le binaire compilé)
+LANGUAGES = {
+    "Python":     {"template": Path("templates/assoc.py.jinja"), "ext": ".py", "cmd": [sys.executable]},
+    "JavaScript": {"template": Path("templates/assoc.js.jinja"), "ext": ".js", "cmd": ["node"]},
+    "C":          {"template": Path("templates/assoc.c.jinja"),  "ext": ".c",  "cmd": []},
+}
 
 PROPERTIES = {
     "Associativite":  ("(x + y) + z", "x + (y + z)"),
     "Distributivite": ("x * (y + z)", "x * y + x * z"),
 }
 
+# (langage, librairie) -> (import, tirage d'un nombre dans [0, 1[)
 LIBRARIES = {
-    "random": ("import random",      "random.random()"),
-    "numpy":  ("import numpy as np", "np.random.random()"),
+    ("Python", "random"):     ("import random",      "random.random()"),
+    ("Python", "numpy"):      ("import numpy as np", "np.random.random()"),
+    ("JavaScript", "random"): ("",                   "Math.random()"),
+    ("C", "random"):          ("",                   "(double)rand() / RAND_MAX"),
 }
 
 CURRENT_OS = {"Linux": "Ubuntu", "Darwin": "MacOS"}[platform.system()]
 
 
+def version(command):
+    """Première ligne de `command --version`, ou "" si la commande n'existe pas."""
+    if shutil.which(command) is None:
+        return ""
+    out = subprocess.run([command, "--version"], capture_output=True, text=True).stdout
+    return out.splitlines()[0].strip() if out else ""
+
+
 def generate(row):
-    """Remplit le template avec les valeurs de la ligne, écrit le programme, renvoie son chemin."""
-    template = Template(TEMPLATES[row["Language"]].read_text())
+    """Remplit le template avec les valeurs de la ligne, écrit le programme (et le compile
+    si c'est du C), renvoie le chemin de ce qu'il faut lancer."""
+    language = LANGUAGES[row["Language"]]
+    template = Template(language["template"].read_text())
     lhs, rhs = PROPERTIES[row["Propriete"]]
-    imp, draw = LIBRARIES[row["Librairie"]]
+    imp, draw = LIBRARIES[(row["Language"], row["Librairie"])]
 
     code = template.render(lhs=lhs, rhs=rhs, imp=imp, draw=draw,
                            repetitions=int(row["Repetitions"]))
 
     OUT.mkdir(exist_ok=True)
-    path = OUT / f"{row['config_id']}.py"
+    path = OUT / f"{row['config_id']}{language['ext']}"
     path.write_text(code)
+
+    if row["Language"] == "C":
+        binary = OUT / row["config_id"]
+        result = subprocess.run([row["Compilateur"], *CFLAGS, "-o", str(binary), str(path)],
+                                capture_output=True, text=True)
+        if result.returncode != 0:
+            sys.exit(f"{path} ne compile pas :\n{result.stderr}")
+        return binary
     return path
 
 
-def execute(path):
+def execute(row, path):
     """Lance le programme généré et renvoie le pourcentage qu'il affiche."""
-    result = subprocess.run([sys.executable, path], capture_output=True, text=True)
+    command = LANGUAGES[row["Language"]]["cmd"] + [str(path)]
+    result = subprocess.run(command, capture_output=True, text=True)
     if result.returncode != 0:
         sys.exit(f"{path} a planté :\n{result.stderr}")
     return float(result.stdout.strip())
@@ -63,13 +94,22 @@ def environment():
                             capture_output=True, text=True).stdout.strip()
     return {"os": platform.system(), "os_version": platform.release(),
             "arch": platform.machine(), "python": platform.python_version(),
-            "commit": commit}
+            "node": version("node"), "commit": commit}
+
+
+def runnable(row):
+    """Cette ligne peut-elle tourner ici ?"""
+    if row["Language"] not in LANGUAGES or row["Systeme"] != CURRENT_OS:
+        return False
+    if row["Language"] == "C" and shutil.which(row["Compilateur"]) is None:
+        print(f"{row['config_id']}: ignorée, {row['Compilateur']} n'est pas installé")
+        return False
+    return True
 
 
 def main():
     rows = list(csv.DictReader(SAMPLE.open()))
-    todo = [row for row in rows
-            if row["Language"] in TEMPLATES and row["Systeme"] == CURRENT_OS]
+    todo = [row for row in rows if runnable(row)]
     env = environment()
 
     RESULTS.mkdir(exist_ok=True)
@@ -78,8 +118,10 @@ def main():
         writer = None
         for row in todo:
             path = generate(row)
+            compiler = {"compiler_version": version(row["Compilateur"]) if row["Language"] == "C" else "",
+                        "cflags": " ".join(CFLAGS) if row["Language"] == "C" else ""}
             for run in range(1, RUNS + 1):
-                result = {**row, "run": run, "percentage": execute(path), **env}
+                result = {**row, "run": run, "percentage": execute(row, path), **env, **compiler}
                 if writer is None:
                     writer = csv.DictWriter(f, fieldnames=result.keys())
                     writer.writeheader()
@@ -87,7 +129,7 @@ def main():
             print(f"{row['config_id']}: {RUNS} exécutions")
 
     print(f"{out} : {len(todo)} configurations sur {len(rows)} lancées "
-          f"({CURRENT_OS}, langages : {', '.join(TEMPLATES)})")
+          f"({CURRENT_OS}, langages : {', '.join(LANGUAGES)})")
 
 
 if __name__ == "__main__":

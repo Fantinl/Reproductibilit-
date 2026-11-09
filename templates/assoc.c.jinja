@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <unistd.h>
+{{ imp }}
+
+double check_property(int repetitions) {
+    int holds = 0;
+    for (int i = 0; i < repetitions; i++) {
+        double x = {{ draw }}, y = {{ draw }}, z = {{ draw }};
+        if ({{ lhs }} == {{ rhs }}) {
+            holds++;
+        }
+    }
+    return 100.0 * holds / repetitions;
+}
+
+int main(void) {
+    /* une graine différente à chaque exécution, même si plusieurs démarrent dans la même seconde */
+    srand(time(NULL) ^ getpid());
+    printf("%f\n", check_property({{ repetitions }}));
+    return 0;
+}

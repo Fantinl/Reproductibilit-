@@ -27,6 +27,12 @@ features
 				alternative
 					random 
 					numpy
+		optional
+			Compilateur
+				alternative
+					gcc
+					clang
 
 constraints
 	numpy => Python
+	C <=> Compilateur
