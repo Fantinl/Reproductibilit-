@@ -5,9 +5,11 @@
 Seules les lignes d'un langage géré (LANGUAGES) et de l'OS courant sont lancées :
 sur Ubuntu les lignes Systeme=Ubuntu, sur macOS les lignes Systeme=MacOS.
 Les lignes C dont le compilateur n'est pas installé sont ignorées.
-Résultats : results/results_<OS>.csv, une ligne par exécution.
+Résultats : results/results_<OS>.csv (dans GitHub Actions) ou results_local/ (en local),
+une ligne par exécution.
 """
 import csv
+import os
 import platform
 import shutil
 import subprocess
@@ -18,7 +20,9 @@ from jinja2 import Template
 
 SAMPLE = Path("configs/sample.csv")
 OUT = Path("generated")
-RESULTS = Path("results")
+# Le dépôt ne contient que les résultats produits par GitHub Actions ;
+# en local, ils vont dans un dossier ignoré par git (sinon conflit avec les commits du bot)
+RESULTS = Path("results") if os.environ.get("GITHUB_ACTIONS") else Path("results_local")
 RUNS = 5
 CFLAGS = ["-O2"]
 

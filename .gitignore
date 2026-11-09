@@ -10,3 +10,6 @@ __pycache__/
 
 # Programmes générés par run.py
 generated/
+
+# Résultats lancés en local (ceux du dépôt viennent de GitHub Actions)
+results_local/
