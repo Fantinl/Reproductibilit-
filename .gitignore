@@ -3,3 +3,10 @@
 # Binaires compilés
 TP1/egal
 TP1/banquier
+
+# Python
+.venv/
+__pycache__/
+
+# Programmes générés par run.py
+generated/

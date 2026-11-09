@@ -1,0 +1,11 @@
+{{ imp }}
+
+def check_property(repetitions):
+    holds = 0
+    for _ in range(repetitions):
+        x, y, z = {{ draw }}, {{ draw }}, {{ draw }}
+        if {{ lhs }} == {{ rhs }}:
+            holds += 1
+    return 100 * holds / repetitions
+
+print(check_property({{ repetitions }}))

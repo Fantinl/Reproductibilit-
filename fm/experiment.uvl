@@ -1,0 +1,32 @@
+features
+	Experience
+		mandatory
+			Repetitions
+				alternative
+					"10000"
+					"100000"
+					"1000000"
+		mandatory
+			Language
+				alternative
+					C
+					Python
+					JavaScript
+		mandatory
+			Systeme
+				alternative
+					Ubuntu
+					MacOS
+		mandatory
+			Propriete
+				alternative
+					Associativite
+					Distributivite
+		mandatory
+			Librairie
+				alternative
+					random 
+					numpy
+
+constraints
+	numpy => Python
