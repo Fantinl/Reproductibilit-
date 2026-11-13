@@ -1,166 +1,166 @@
 config_id,origin_of_config,Repetitions,Language,Systeme,Propriete,Librairie,Precision,Intervalle,Compilateur,run,percentage,os,os_version,arch,python,node,commit,compiler_version,cflags
-llm.gemini.python,anchor,100000,Python,Ubuntu,Associativite,numpy,double,Max1,,1,82.857,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-llm.gemini.python,anchor,100000,Python,Ubuntu,Associativite,numpy,double,Max1,,2,82.92,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-llm.gemini.python,anchor,100000,Python,Ubuntu,Associativite,numpy,double,Max1,,3,82.849,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-llm.gemini.python,anchor,100000,Python,Ubuntu,Associativite,numpy,double,Max1,,4,82.855,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-llm.gemini.python,anchor,100000,Python,Ubuntu,Associativite,numpy,double,Max1,,5,83.079,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-tp1.c,anchor,10000,C,Ubuntu,Associativite,random,float,Max100,gcc,1,78.4,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-tp1.c,anchor,10000,C,Ubuntu,Associativite,random,float,Max100,gcc,2,78.9,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-tp1.c,anchor,10000,C,Ubuntu,Associativite,random,float,Max100,gcc,3,78.98,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-tp1.c,anchor,10000,C,Ubuntu,Associativite,random,float,Max100,gcc,4,79.05,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-tp1.c,anchor,10000,C,Ubuntu,Associativite,random,float,Max100,gcc,5,79.21,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r01,random,1000000,Python,Ubuntu,Distributivite,numpy,double,Max100,,1,64.4749,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r01,random,1000000,Python,Ubuntu,Distributivite,numpy,double,Max100,,2,64.5101,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r01,random,1000000,Python,Ubuntu,Distributivite,numpy,double,Max100,,3,64.5358,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r01,random,1000000,Python,Ubuntu,Distributivite,numpy,double,Max100,,4,64.5352,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r01,random,1000000,Python,Ubuntu,Distributivite,numpy,double,Max100,,5,64.4744,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r05,random,100000,C,Ubuntu,Associativite,random,double,Max100,gcc,1,78.674,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r05,random,100000,C,Ubuntu,Associativite,random,double,Max100,gcc,2,78.93,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r05,random,100000,C,Ubuntu,Associativite,random,double,Max100,gcc,3,78.882,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r05,random,100000,C,Ubuntu,Associativite,random,double,Max100,gcc,4,78.792,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r05,random,100000,C,Ubuntu,Associativite,random,double,Max100,gcc,5,78.723,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r11,random,1000000,C,Ubuntu,Associativite,random,double,Max100,clang,1,74.8461,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r11,random,1000000,C,Ubuntu,Associativite,random,double,Max100,clang,2,74.9461,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r11,random,1000000,C,Ubuntu,Associativite,random,double,Max100,clang,3,74.941,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r11,random,1000000,C,Ubuntu,Associativite,random,double,Max100,clang,4,74.8942,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r11,random,1000000,C,Ubuntu,Associativite,random,double,Max100,clang,5,74.8498,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r13,random,10000,Python,Ubuntu,Associativite,random,double,Max100,,1,75.46,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r13,random,10000,Python,Ubuntu,Associativite,random,double,Max100,,2,75.23,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r13,random,10000,Python,Ubuntu,Associativite,random,double,Max100,,3,75.27,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r13,random,10000,Python,Ubuntu,Associativite,random,double,Max100,,4,74.92,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r13,random,10000,Python,Ubuntu,Associativite,random,double,Max100,,5,75.1,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r15,random,100000,JavaScript,Ubuntu,Associativite,random,double,Max1,,1,82.882,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r15,random,100000,JavaScript,Ubuntu,Associativite,random,double,Max1,,2,82.57,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r15,random,100000,JavaScript,Ubuntu,Associativite,random,double,Max1,,3,82.758,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r15,random,100000,JavaScript,Ubuntu,Associativite,random,double,Max1,,4,82.781,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r15,random,100000,JavaScript,Ubuntu,Associativite,random,double,Max1,,5,82.904,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r20,random,100000,C,Ubuntu,Distributivite,random,double,Max1,gcc,1,69.233,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r20,random,100000,C,Ubuntu,Distributivite,random,double,Max1,gcc,2,69.305,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r20,random,100000,C,Ubuntu,Distributivite,random,double,Max1,gcc,3,69.18,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r20,random,100000,C,Ubuntu,Distributivite,random,double,Max1,gcc,4,69.305,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r20,random,100000,C,Ubuntu,Distributivite,random,double,Max1,gcc,5,69.284,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r22,random,10000,Python,Ubuntu,Distributivite,numpy,double,Max1,,1,69.46,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r22,random,10000,Python,Ubuntu,Distributivite,numpy,double,Max1,,2,68.76,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r22,random,10000,Python,Ubuntu,Distributivite,numpy,double,Max1,,3,69.06,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r22,random,10000,Python,Ubuntu,Distributivite,numpy,double,Max1,,4,69.02,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r22,random,10000,Python,Ubuntu,Distributivite,numpy,double,Max1,,5,68.86,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r23,random,10000,Python,Ubuntu,Associativite,numpy,float,Max1,,1,73.93,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r23,random,10000,Python,Ubuntu,Associativite,numpy,float,Max1,,2,74.98,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r23,random,10000,Python,Ubuntu,Associativite,numpy,float,Max1,,3,74.8,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r23,random,10000,Python,Ubuntu,Associativite,numpy,float,Max1,,4,74.39,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r23,random,10000,Python,Ubuntu,Associativite,numpy,float,Max1,,5,74.36,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r26,random,100000,C,Ubuntu,Associativite,random,float,Max1,gcc,1,74.475,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r26,random,100000,C,Ubuntu,Associativite,random,float,Max1,gcc,2,74.415,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r26,random,100000,C,Ubuntu,Associativite,random,float,Max1,gcc,3,74.419,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r26,random,100000,C,Ubuntu,Associativite,random,float,Max1,gcc,4,74.851,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r26,random,100000,C,Ubuntu,Associativite,random,float,Max1,gcc,5,74.671,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r27,random,1000000,C,Ubuntu,Distributivite,random,float,Max1,clang,1,69.2571,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r27,random,1000000,C,Ubuntu,Distributivite,random,float,Max1,clang,2,69.1324,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r27,random,1000000,C,Ubuntu,Distributivite,random,float,Max1,clang,3,69.216,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r27,random,1000000,C,Ubuntu,Distributivite,random,float,Max1,clang,4,69.2835,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r27,random,1000000,C,Ubuntu,Distributivite,random,float,Max1,clang,5,69.203,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r28,random,100000,Python,Ubuntu,Associativite,numpy,double,Max100,,1,74.941,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r28,random,100000,Python,Ubuntu,Associativite,numpy,double,Max100,,2,74.927,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r28,random,100000,Python,Ubuntu,Associativite,numpy,double,Max100,,3,74.963,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r28,random,100000,Python,Ubuntu,Associativite,numpy,double,Max100,,4,74.837,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r28,random,100000,Python,Ubuntu,Associativite,numpy,double,Max100,,5,75.081,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r29,random,1000000,C,Ubuntu,Distributivite,random,float,Max100,gcc,1,69.0867,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r29,random,1000000,C,Ubuntu,Distributivite,random,float,Max100,gcc,2,69.0106,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r29,random,1000000,C,Ubuntu,Distributivite,random,float,Max100,gcc,3,69.0118,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r29,random,1000000,C,Ubuntu,Distributivite,random,float,Max100,gcc,4,69.0162,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r29,random,1000000,C,Ubuntu,Distributivite,random,float,Max100,gcc,5,69.0679,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r30,random,100000,Python,Ubuntu,Distributivite,numpy,double,Max1,,1,69.236,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r30,random,100000,Python,Ubuntu,Distributivite,numpy,double,Max1,,2,68.979,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r30,random,100000,Python,Ubuntu,Distributivite,numpy,double,Max1,,3,69.166,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r30,random,100000,Python,Ubuntu,Distributivite,numpy,double,Max1,,4,69.032,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r30,random,100000,Python,Ubuntu,Distributivite,numpy,double,Max1,,5,68.864,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r31,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,gcc,1,68.9103,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r31,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,gcc,2,68.9504,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r31,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,gcc,3,69.051,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r31,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,gcc,4,68.9651,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r31,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,gcc,5,69.0542,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r32,random,10000,Python,Ubuntu,Associativite,numpy,float,Max100,,1,75.06,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r32,random,10000,Python,Ubuntu,Associativite,numpy,float,Max100,,2,75.0,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r32,random,10000,Python,Ubuntu,Associativite,numpy,float,Max100,,3,75.24,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r32,random,10000,Python,Ubuntu,Associativite,numpy,float,Max100,,4,75.43,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r32,random,10000,Python,Ubuntu,Associativite,numpy,float,Max100,,5,74.54,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r37,random,100000,C,Ubuntu,Distributivite,random,double,Max100,gcc,1,69.022,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r37,random,100000,C,Ubuntu,Distributivite,random,double,Max100,gcc,2,69.02,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r37,random,100000,C,Ubuntu,Distributivite,random,double,Max100,gcc,3,69.154,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r37,random,100000,C,Ubuntu,Distributivite,random,double,Max100,gcc,4,68.918,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r37,random,100000,C,Ubuntu,Distributivite,random,double,Max100,gcc,5,68.921,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r38,random,100000,Python,Ubuntu,Distributivite,random,double,Max1,,1,69.081,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r38,random,100000,Python,Ubuntu,Distributivite,random,double,Max1,,2,69.246,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r38,random,100000,Python,Ubuntu,Distributivite,random,double,Max1,,3,69.057,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r38,random,100000,Python,Ubuntu,Distributivite,random,double,Max1,,4,68.938,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r38,random,100000,Python,Ubuntu,Distributivite,random,double,Max1,,5,68.933,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r39,random,100000,C,Ubuntu,Associativite,random,float,Max1,clang,1,74.789,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r39,random,100000,C,Ubuntu,Associativite,random,float,Max1,clang,2,74.504,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r39,random,100000,C,Ubuntu,Associativite,random,float,Max1,clang,3,74.596,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r39,random,100000,C,Ubuntu,Associativite,random,float,Max1,clang,4,74.707,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r39,random,100000,C,Ubuntu,Associativite,random,float,Max1,clang,5,74.65,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r42,random,10000,C,Ubuntu,Associativite,random,double,Max100,clang,1,74.46,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r42,random,10000,C,Ubuntu,Associativite,random,double,Max100,clang,2,74.2,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r42,random,10000,C,Ubuntu,Associativite,random,double,Max100,clang,3,74.27,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r42,random,10000,C,Ubuntu,Associativite,random,double,Max100,clang,4,74.83,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r42,random,10000,C,Ubuntu,Associativite,random,double,Max100,clang,5,75.05,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r43,random,100000,Python,Ubuntu,Distributivite,random,double,Max100,,1,64.549,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r43,random,100000,Python,Ubuntu,Distributivite,random,double,Max100,,2,64.678,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r43,random,100000,Python,Ubuntu,Distributivite,random,double,Max100,,3,64.424,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r43,random,100000,Python,Ubuntu,Distributivite,random,double,Max100,,4,64.331,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r43,random,100000,Python,Ubuntu,Distributivite,random,double,Max100,,5,64.312,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r44,random,10000,Python,Ubuntu,Distributivite,random,double,Max100,,1,64.69,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r44,random,10000,Python,Ubuntu,Distributivite,random,double,Max100,,2,65.82,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r44,random,10000,Python,Ubuntu,Distributivite,random,double,Max100,,3,64.14,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r44,random,10000,Python,Ubuntu,Distributivite,random,double,Max100,,4,64.89,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r44,random,10000,Python,Ubuntu,Distributivite,random,double,Max100,,5,63.83,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r45,random,1000000,Python,Ubuntu,Distributivite,numpy,float,Max1,,1,64.787,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r45,random,1000000,Python,Ubuntu,Distributivite,numpy,float,Max1,,2,64.7184,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r45,random,1000000,Python,Ubuntu,Distributivite,numpy,float,Max1,,3,64.6466,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r45,random,1000000,Python,Ubuntu,Distributivite,numpy,float,Max1,,4,64.7584,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r45,random,1000000,Python,Ubuntu,Distributivite,numpy,float,Max1,,5,64.7119,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r46,random,10000,C,Ubuntu,Distributivite,random,double,Max100,gcc,1,69.59,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r46,random,10000,C,Ubuntu,Distributivite,random,double,Max100,gcc,2,69.73,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r46,random,10000,C,Ubuntu,Distributivite,random,double,Max100,gcc,3,68.56,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r46,random,10000,C,Ubuntu,Distributivite,random,double,Max100,gcc,4,69.05,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r46,random,10000,C,Ubuntu,Distributivite,random,double,Max100,gcc,5,68.99,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r47,random,10000,Python,Ubuntu,Distributivite,numpy,float,Max1,,1,65.31,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r47,random,10000,Python,Ubuntu,Distributivite,numpy,float,Max1,,2,65.23,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r47,random,10000,Python,Ubuntu,Distributivite,numpy,float,Max1,,3,64.99,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r47,random,10000,Python,Ubuntu,Distributivite,numpy,float,Max1,,4,64.08,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r47,random,10000,Python,Ubuntu,Distributivite,numpy,float,Max1,,5,64.86,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r50,random,1000000,Python,Ubuntu,Distributivite,random,double,Max100,,1,64.5441,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r50,random,1000000,Python,Ubuntu,Distributivite,random,double,Max100,,2,64.5486,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r50,random,1000000,Python,Ubuntu,Distributivite,random,double,Max100,,3,64.4683,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r50,random,1000000,Python,Ubuntu,Distributivite,random,double,Max100,,4,64.4461,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r50,random,1000000,Python,Ubuntu,Distributivite,random,double,Max100,,5,64.5273,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r51,random,1000000,Python,Ubuntu,Associativite,numpy,double,Max1,,1,82.7919,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r51,random,1000000,Python,Ubuntu,Associativite,numpy,double,Max1,,2,82.773,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r51,random,1000000,Python,Ubuntu,Associativite,numpy,double,Max1,,3,82.8189,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r51,random,1000000,Python,Ubuntu,Associativite,numpy,double,Max1,,4,82.7868,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r51,random,1000000,Python,Ubuntu,Associativite,numpy,double,Max1,,5,82.7216,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r54,random,10000,JavaScript,Ubuntu,Associativite,random,double,Max1,,1,82.81,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r54,random,10000,JavaScript,Ubuntu,Associativite,random,double,Max1,,2,83.43,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r54,random,10000,JavaScript,Ubuntu,Associativite,random,double,Max1,,3,82.63,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r54,random,10000,JavaScript,Ubuntu,Associativite,random,double,Max1,,4,83.12,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r54,random,10000,JavaScript,Ubuntu,Associativite,random,double,Max1,,5,83.14,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r55,random,1000000,JavaScript,Ubuntu,Distributivite,random,double,Max1,,1,68.8884,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r55,random,1000000,JavaScript,Ubuntu,Distributivite,random,double,Max1,,2,68.9771,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r55,random,1000000,JavaScript,Ubuntu,Distributivite,random,double,Max1,,3,68.9552,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r55,random,1000000,JavaScript,Ubuntu,Distributivite,random,double,Max1,,4,68.8661,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r55,random,1000000,JavaScript,Ubuntu,Distributivite,random,double,Max1,,5,68.9721,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r56,random,1000000,Python,Ubuntu,Associativite,numpy,float,Max1,,1,74.553,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r56,random,1000000,Python,Ubuntu,Associativite,numpy,float,Max1,,2,74.5593,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r56,random,1000000,Python,Ubuntu,Associativite,numpy,float,Max1,,3,74.5831,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r56,random,1000000,Python,Ubuntu,Associativite,numpy,float,Max1,,4,74.5914,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r56,random,1000000,Python,Ubuntu,Associativite,numpy,float,Max1,,5,74.5585,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,,
-r59,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,clang,1,68.9762,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r59,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,clang,2,69.0138,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r59,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,clang,3,69.0134,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r59,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,clang,4,69.0869,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r59,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,clang,5,69.0091,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
-r60,random,1000000,C,Ubuntu,Associativite,random,double,Max1,gcc,1,74.5243,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r60,random,1000000,C,Ubuntu,Associativite,random,double,Max1,gcc,2,74.5365,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r60,random,1000000,C,Ubuntu,Associativite,random,double,Max1,gcc,3,74.5987,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r60,random,1000000,C,Ubuntu,Associativite,random,double,Max1,gcc,4,74.5657,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
-r60,random,1000000,C,Ubuntu,Associativite,random,double,Max1,gcc,5,74.5891,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,95b678f,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+llm.gemini.python,anchor,100000,Python,Ubuntu,Associativite,numpy,double,Max1,,1,82.734,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+llm.gemini.python,anchor,100000,Python,Ubuntu,Associativite,numpy,double,Max1,,2,82.628,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+llm.gemini.python,anchor,100000,Python,Ubuntu,Associativite,numpy,double,Max1,,3,82.852,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+llm.gemini.python,anchor,100000,Python,Ubuntu,Associativite,numpy,double,Max1,,4,82.765,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+llm.gemini.python,anchor,100000,Python,Ubuntu,Associativite,numpy,double,Max1,,5,82.729,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+tp1.c,anchor,10000,C,Ubuntu,Associativite,random,float,Max100,gcc,1,78.68,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+tp1.c,anchor,10000,C,Ubuntu,Associativite,random,float,Max100,gcc,2,78.89,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+tp1.c,anchor,10000,C,Ubuntu,Associativite,random,float,Max100,gcc,3,79.14,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+tp1.c,anchor,10000,C,Ubuntu,Associativite,random,float,Max100,gcc,4,78.67,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+tp1.c,anchor,10000,C,Ubuntu,Associativite,random,float,Max100,gcc,5,79.23,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r01,random,1000000,Python,Ubuntu,Distributivite,numpy,double,Max100,,1,64.5076,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r01,random,1000000,Python,Ubuntu,Distributivite,numpy,double,Max100,,2,64.6078,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r01,random,1000000,Python,Ubuntu,Distributivite,numpy,double,Max100,,3,64.4309,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r01,random,1000000,Python,Ubuntu,Distributivite,numpy,double,Max100,,4,64.4592,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r01,random,1000000,Python,Ubuntu,Distributivite,numpy,double,Max100,,5,64.5392,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r05,random,100000,C,Ubuntu,Associativite,random,double,Max100,gcc,1,78.833,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r05,random,100000,C,Ubuntu,Associativite,random,double,Max100,gcc,2,78.705,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r05,random,100000,C,Ubuntu,Associativite,random,double,Max100,gcc,3,78.903,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r05,random,100000,C,Ubuntu,Associativite,random,double,Max100,gcc,4,78.743,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r05,random,100000,C,Ubuntu,Associativite,random,double,Max100,gcc,5,78.87,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r11,random,1000000,C,Ubuntu,Associativite,random,double,Max100,clang,1,74.8805,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r11,random,1000000,C,Ubuntu,Associativite,random,double,Max100,clang,2,74.885,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r11,random,1000000,C,Ubuntu,Associativite,random,double,Max100,clang,3,74.8777,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r11,random,1000000,C,Ubuntu,Associativite,random,double,Max100,clang,4,74.9086,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r11,random,1000000,C,Ubuntu,Associativite,random,double,Max100,clang,5,74.8543,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r13,random,10000,Python,Ubuntu,Associativite,random,double,Max100,,1,74.96,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r13,random,10000,Python,Ubuntu,Associativite,random,double,Max100,,2,75.36,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r13,random,10000,Python,Ubuntu,Associativite,random,double,Max100,,3,74.86,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r13,random,10000,Python,Ubuntu,Associativite,random,double,Max100,,4,74.42,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r13,random,10000,Python,Ubuntu,Associativite,random,double,Max100,,5,75.73,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r15,random,100000,JavaScript,Ubuntu,Associativite,random,double,Max1,,1,82.963,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r15,random,100000,JavaScript,Ubuntu,Associativite,random,double,Max1,,2,82.711,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r15,random,100000,JavaScript,Ubuntu,Associativite,random,double,Max1,,3,82.684,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r15,random,100000,JavaScript,Ubuntu,Associativite,random,double,Max1,,4,82.761,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r15,random,100000,JavaScript,Ubuntu,Associativite,random,double,Max1,,5,82.865,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r20,random,100000,C,Ubuntu,Distributivite,random,double,Max1,gcc,1,69.143,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r20,random,100000,C,Ubuntu,Distributivite,random,double,Max1,gcc,2,69.09,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r20,random,100000,C,Ubuntu,Distributivite,random,double,Max1,gcc,3,69.32,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r20,random,100000,C,Ubuntu,Distributivite,random,double,Max1,gcc,4,69.393,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r20,random,100000,C,Ubuntu,Distributivite,random,double,Max1,gcc,5,69.059,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r22,random,10000,Python,Ubuntu,Distributivite,numpy,double,Max1,,1,69.79,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r22,random,10000,Python,Ubuntu,Distributivite,numpy,double,Max1,,2,69.89,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r22,random,10000,Python,Ubuntu,Distributivite,numpy,double,Max1,,3,69.03,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r22,random,10000,Python,Ubuntu,Distributivite,numpy,double,Max1,,4,69.69,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r22,random,10000,Python,Ubuntu,Distributivite,numpy,double,Max1,,5,69.24,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r23,random,10000,Python,Ubuntu,Associativite,numpy,float,Max1,,1,74.39,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r23,random,10000,Python,Ubuntu,Associativite,numpy,float,Max1,,2,74.97,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r23,random,10000,Python,Ubuntu,Associativite,numpy,float,Max1,,3,74.52,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r23,random,10000,Python,Ubuntu,Associativite,numpy,float,Max1,,4,75.18,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r23,random,10000,Python,Ubuntu,Associativite,numpy,float,Max1,,5,74.31,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r26,random,100000,C,Ubuntu,Associativite,random,float,Max1,gcc,1,74.734,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r26,random,100000,C,Ubuntu,Associativite,random,float,Max1,gcc,2,74.549,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r26,random,100000,C,Ubuntu,Associativite,random,float,Max1,gcc,3,74.498,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r26,random,100000,C,Ubuntu,Associativite,random,float,Max1,gcc,4,74.441,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r26,random,100000,C,Ubuntu,Associativite,random,float,Max1,gcc,5,74.74,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r27,random,1000000,C,Ubuntu,Distributivite,random,float,Max1,clang,1,69.1773,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r27,random,1000000,C,Ubuntu,Distributivite,random,float,Max1,clang,2,69.1753,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r27,random,1000000,C,Ubuntu,Distributivite,random,float,Max1,clang,3,69.2919,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r27,random,1000000,C,Ubuntu,Distributivite,random,float,Max1,clang,4,69.1889,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r27,random,1000000,C,Ubuntu,Distributivite,random,float,Max1,clang,5,69.1359,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r28,random,100000,Python,Ubuntu,Associativite,numpy,double,Max100,,1,75.192,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r28,random,100000,Python,Ubuntu,Associativite,numpy,double,Max100,,2,75.09,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r28,random,100000,Python,Ubuntu,Associativite,numpy,double,Max100,,3,75.176,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r28,random,100000,Python,Ubuntu,Associativite,numpy,double,Max100,,4,75.086,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r28,random,100000,Python,Ubuntu,Associativite,numpy,double,Max100,,5,75.106,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r29,random,1000000,C,Ubuntu,Distributivite,random,float,Max100,gcc,1,69.017,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r29,random,1000000,C,Ubuntu,Distributivite,random,float,Max100,gcc,2,69.1007,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r29,random,1000000,C,Ubuntu,Distributivite,random,float,Max100,gcc,3,69.0582,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r29,random,1000000,C,Ubuntu,Distributivite,random,float,Max100,gcc,4,68.9234,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r29,random,1000000,C,Ubuntu,Distributivite,random,float,Max100,gcc,5,69.0292,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r30,random,100000,Python,Ubuntu,Distributivite,numpy,double,Max1,,1,68.964,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r30,random,100000,Python,Ubuntu,Distributivite,numpy,double,Max1,,2,68.579,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r30,random,100000,Python,Ubuntu,Distributivite,numpy,double,Max1,,3,68.98,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r30,random,100000,Python,Ubuntu,Distributivite,numpy,double,Max1,,4,68.862,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r30,random,100000,Python,Ubuntu,Distributivite,numpy,double,Max1,,5,69.0,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r31,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,gcc,1,69.1168,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r31,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,gcc,2,69.0707,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r31,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,gcc,3,68.9955,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r31,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,gcc,4,69.0723,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r31,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,gcc,5,68.9262,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r32,random,10000,Python,Ubuntu,Associativite,numpy,float,Max100,,1,74.55,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r32,random,10000,Python,Ubuntu,Associativite,numpy,float,Max100,,2,74.54,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r32,random,10000,Python,Ubuntu,Associativite,numpy,float,Max100,,3,74.74,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r32,random,10000,Python,Ubuntu,Associativite,numpy,float,Max100,,4,75.22,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r32,random,10000,Python,Ubuntu,Associativite,numpy,float,Max100,,5,75.2,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r37,random,100000,C,Ubuntu,Distributivite,random,double,Max100,gcc,1,68.956,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r37,random,100000,C,Ubuntu,Distributivite,random,double,Max100,gcc,2,68.881,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r37,random,100000,C,Ubuntu,Distributivite,random,double,Max100,gcc,3,69.221,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r37,random,100000,C,Ubuntu,Distributivite,random,double,Max100,gcc,4,69.032,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r37,random,100000,C,Ubuntu,Distributivite,random,double,Max100,gcc,5,69.127,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r38,random,100000,Python,Ubuntu,Distributivite,random,double,Max1,,1,68.957,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r38,random,100000,Python,Ubuntu,Distributivite,random,double,Max1,,2,68.926,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r38,random,100000,Python,Ubuntu,Distributivite,random,double,Max1,,3,68.816,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r38,random,100000,Python,Ubuntu,Distributivite,random,double,Max1,,4,68.793,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r38,random,100000,Python,Ubuntu,Distributivite,random,double,Max1,,5,68.924,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r39,random,100000,C,Ubuntu,Associativite,random,float,Max1,clang,1,74.746,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r39,random,100000,C,Ubuntu,Associativite,random,float,Max1,clang,2,74.528,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r39,random,100000,C,Ubuntu,Associativite,random,float,Max1,clang,3,74.732,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r39,random,100000,C,Ubuntu,Associativite,random,float,Max1,clang,4,74.546,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r39,random,100000,C,Ubuntu,Associativite,random,float,Max1,clang,5,74.856,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r42,random,10000,C,Ubuntu,Associativite,random,double,Max100,clang,1,74.91,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r42,random,10000,C,Ubuntu,Associativite,random,double,Max100,clang,2,74.04,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r42,random,10000,C,Ubuntu,Associativite,random,double,Max100,clang,3,74.26,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r42,random,10000,C,Ubuntu,Associativite,random,double,Max100,clang,4,74.38,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r42,random,10000,C,Ubuntu,Associativite,random,double,Max100,clang,5,75.49,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r43,random,100000,Python,Ubuntu,Distributivite,random,double,Max100,,1,64.545,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r43,random,100000,Python,Ubuntu,Distributivite,random,double,Max100,,2,64.612,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r43,random,100000,Python,Ubuntu,Distributivite,random,double,Max100,,3,64.648,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r43,random,100000,Python,Ubuntu,Distributivite,random,double,Max100,,4,64.402,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r43,random,100000,Python,Ubuntu,Distributivite,random,double,Max100,,5,64.511,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r44,random,10000,Python,Ubuntu,Distributivite,random,double,Max100,,1,64.35,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r44,random,10000,Python,Ubuntu,Distributivite,random,double,Max100,,2,64.34,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r44,random,10000,Python,Ubuntu,Distributivite,random,double,Max100,,3,63.08,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r44,random,10000,Python,Ubuntu,Distributivite,random,double,Max100,,4,64.34,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r44,random,10000,Python,Ubuntu,Distributivite,random,double,Max100,,5,64.12,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r45,random,1000000,Python,Ubuntu,Distributivite,numpy,float,Max1,,1,64.7147,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r45,random,1000000,Python,Ubuntu,Distributivite,numpy,float,Max1,,2,64.6642,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r45,random,1000000,Python,Ubuntu,Distributivite,numpy,float,Max1,,3,64.7167,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r45,random,1000000,Python,Ubuntu,Distributivite,numpy,float,Max1,,4,64.7109,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r45,random,1000000,Python,Ubuntu,Distributivite,numpy,float,Max1,,5,64.7742,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r46,random,10000,C,Ubuntu,Distributivite,random,double,Max100,gcc,1,69.7,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r46,random,10000,C,Ubuntu,Distributivite,random,double,Max100,gcc,2,68.85,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r46,random,10000,C,Ubuntu,Distributivite,random,double,Max100,gcc,3,68.38,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r46,random,10000,C,Ubuntu,Distributivite,random,double,Max100,gcc,4,69.13,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r46,random,10000,C,Ubuntu,Distributivite,random,double,Max100,gcc,5,70.06,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r47,random,10000,Python,Ubuntu,Distributivite,numpy,float,Max1,,1,64.38,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r47,random,10000,Python,Ubuntu,Distributivite,numpy,float,Max1,,2,64.96,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r47,random,10000,Python,Ubuntu,Distributivite,numpy,float,Max1,,3,64.3,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r47,random,10000,Python,Ubuntu,Distributivite,numpy,float,Max1,,4,65.65,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r47,random,10000,Python,Ubuntu,Distributivite,numpy,float,Max1,,5,63.89,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r50,random,1000000,Python,Ubuntu,Distributivite,random,double,Max100,,1,64.4057,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r50,random,1000000,Python,Ubuntu,Distributivite,random,double,Max100,,2,64.4697,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r50,random,1000000,Python,Ubuntu,Distributivite,random,double,Max100,,3,64.494,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r50,random,1000000,Python,Ubuntu,Distributivite,random,double,Max100,,4,64.4475,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r50,random,1000000,Python,Ubuntu,Distributivite,random,double,Max100,,5,64.4972,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r51,random,1000000,Python,Ubuntu,Associativite,numpy,double,Max1,,1,82.8887,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r51,random,1000000,Python,Ubuntu,Associativite,numpy,double,Max1,,2,82.7433,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r51,random,1000000,Python,Ubuntu,Associativite,numpy,double,Max1,,3,82.8083,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r51,random,1000000,Python,Ubuntu,Associativite,numpy,double,Max1,,4,82.862,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r51,random,1000000,Python,Ubuntu,Associativite,numpy,double,Max1,,5,82.8174,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r54,random,10000,JavaScript,Ubuntu,Associativite,random,double,Max1,,1,82.67,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r54,random,10000,JavaScript,Ubuntu,Associativite,random,double,Max1,,2,82.7,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r54,random,10000,JavaScript,Ubuntu,Associativite,random,double,Max1,,3,82.62,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r54,random,10000,JavaScript,Ubuntu,Associativite,random,double,Max1,,4,83.04,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r54,random,10000,JavaScript,Ubuntu,Associativite,random,double,Max1,,5,82.47,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r55,random,1000000,JavaScript,Ubuntu,Distributivite,random,double,Max1,,1,68.8988,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r55,random,1000000,JavaScript,Ubuntu,Distributivite,random,double,Max1,,2,68.9432,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r55,random,1000000,JavaScript,Ubuntu,Distributivite,random,double,Max1,,3,68.9773,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r55,random,1000000,JavaScript,Ubuntu,Distributivite,random,double,Max1,,4,68.9174,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r55,random,1000000,JavaScript,Ubuntu,Distributivite,random,double,Max1,,5,68.8717,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r56,random,1000000,Python,Ubuntu,Associativite,numpy,float,Max1,,1,74.5293,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r56,random,1000000,Python,Ubuntu,Associativite,numpy,float,Max1,,2,74.6457,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r56,random,1000000,Python,Ubuntu,Associativite,numpy,float,Max1,,3,74.5675,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r56,random,1000000,Python,Ubuntu,Associativite,numpy,float,Max1,,4,74.55,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r56,random,1000000,Python,Ubuntu,Associativite,numpy,float,Max1,,5,74.5833,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,,
+r59,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,clang,1,69.0338,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r59,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,clang,2,68.94,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r59,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,clang,3,69.0473,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r59,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,clang,4,69.0114,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r59,random,1000000,C,Ubuntu,Distributivite,random,double,Max100,clang,5,69.0622,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,Ubuntu clang version 18.1.3 (1ubuntu1),-O2
+r60,random,1000000,C,Ubuntu,Associativite,random,double,Max1,gcc,1,74.5523,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r60,random,1000000,C,Ubuntu,Associativite,random,double,Max1,gcc,2,74.5408,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r60,random,1000000,C,Ubuntu,Associativite,random,double,Max1,gcc,3,74.4873,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r60,random,1000000,C,Ubuntu,Associativite,random,double,Max1,gcc,4,74.5984,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
+r60,random,1000000,C,Ubuntu,Associativite,random,double,Max1,gcc,5,74.5614,Linux,7.0.0-1017-azure,aarch64,3.12.16,v24.22.2,df7a2b0,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,-O2
