@@ -13,3 +13,4 @@ generated/
 
 # Résultats lancés en local (ceux du dépôt viennent de GitHub Actions)
 results_local/
+.ipynb_checkpoints/

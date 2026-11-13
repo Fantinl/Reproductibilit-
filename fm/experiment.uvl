@@ -27,6 +27,16 @@ features
 				alternative
 					random 
 					numpy
+		mandatory
+			Precision
+				alternative
+					double
+					float
+		mandatory
+			Intervalle
+				alternative
+					Max1
+					Max100
 		optional
 			Compilateur
 				alternative
@@ -36,3 +46,4 @@ features
 constraints
 	numpy => Python
 	C <=> Compilateur
+	float => C | numpy

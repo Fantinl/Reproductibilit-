@@ -39,13 +39,18 @@ PROPERTIES = {
     "Distributivite": ("x * (y + z)", "x * y + x * z"),
 }
 
-# (langage, librairie) -> (import, tirage d'un nombre dans [0, 1[)
-LIBRARIES = {
-    ("Python", "random"):     ("import random",      "random.random()"),
-    ("Python", "numpy"):      ("import numpy as np", "np.random.random()"),
-    ("JavaScript", "random"): ("",                   "Math.random()"),
-    ("C", "random"):          ("",                   "(double)rand() / RAND_MAX"),
+# (langage, librairie, précision) -> (import, type C, tirage d'un nombre dans [0, 1[)
+DRAWS = {
+    ("Python", "random", "double"):     ("import random",      "", "random.random()"),
+    ("Python", "numpy", "double"):      ("import numpy as np", "", "np.random.random()"),
+    ("Python", "numpy", "float"):       ("import numpy as np", "", "np.float32(np.random.random())"),
+    ("JavaScript", "random", "double"): ("",                   "", "Math.random()"),
+    ("C", "random", "double"):          ("", "double", "(double)rand() / RAND_MAX"),
+    ("C", "random", "float"):           ("", "float",  "(float)rand() / (float)RAND_MAX"),
 }
+
+# Intervalle des tirages : [0, 1[ ou [0, 100[
+SCALES = {"Max1": 1, "Max100": 100}
 
 CURRENT_OS = {"Linux": "Ubuntu", "Darwin": "MacOS"}[platform.system()]
 
@@ -58,15 +63,34 @@ def version(command):
     return out.splitlines()[0].strip() if out else ""
 
 
+def scaled(draw, scale):
+    """Le tirage, multiplié par l'échelle. En float32 numpy, on multiplie avant de convertir."""
+    if scale == 1:
+        return draw
+    if draw.startswith("np.float32("):
+        return f"np.float32({draw[len('np.float32('):-1]} * {scale})"
+    return f"{draw} * {scale}"
+
+
+def compile_c(source, binary, compiler, flags):
+    """Compile un fichier C, arrête tout avec l'erreur du compilateur si ça échoue."""
+    result = subprocess.run([compiler, *flags, "-o", str(binary), str(source)],
+                            capture_output=True, text=True)
+    if result.returncode != 0:
+        sys.exit(f"{source} ne compile pas :\n{result.stderr}")
+    return binary
+
+
 def generate(row):
     """Remplit le template avec les valeurs de la ligne, écrit le programme (et le compile
     si c'est du C), renvoie le chemin de ce qu'il faut lancer."""
     language = LANGUAGES[row["Language"]]
     template = Template(language["template"].read_text())
     lhs, rhs = PROPERTIES[row["Propriete"]]
-    imp, draw = LIBRARIES[(row["Language"], row["Librairie"])]
+    imp, ctype, draw = DRAWS[(row["Language"], row["Librairie"], row["Precision"])]
 
-    code = template.render(lhs=lhs, rhs=rhs, imp=imp, draw=draw,
+    code = template.render(lhs=lhs, rhs=rhs, imp=imp, type=ctype,
+                           draw=scaled(draw, SCALES[row["Intervalle"]]),
                            repetitions=int(row["Repetitions"]))
 
     OUT.mkdir(exist_ok=True)
@@ -74,12 +98,7 @@ def generate(row):
     path.write_text(code)
 
     if row["Language"] == "C":
-        binary = OUT / row["config_id"]
-        result = subprocess.run([row["Compilateur"], *CFLAGS, "-o", str(binary), str(path)],
-                                capture_output=True, text=True)
-        if result.returncode != 0:
-            sys.exit(f"{path} ne compile pas :\n{result.stderr}")
-        return binary
+        return compile_c(path, OUT / row["config_id"], row["Compilateur"], CFLAGS)
     return path
 
 

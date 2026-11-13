@@ -4,3 +4,5 @@ Ubuntu,True
 Associativite,True
 random,True
 gcc,True
+float,True
+Max100,True

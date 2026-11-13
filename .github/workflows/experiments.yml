@@ -31,10 +31,13 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Échantillonnage
-        run: python sample.py fm/experiment.uvl --size 30 --seed 1 --include configs/*.csvconf -o configs/sample.csv
+        run: python sample.py fm/experiment.uvl --size 60 --seed 1 --include configs/*.csvconf -o configs/sample.csv
 
       - name: Lancement des expériences
         run: python run.py
+
+      - name: Expériences causales
+        run: python causal.py
 
       - name: Commit et push des résultats
         run: |
