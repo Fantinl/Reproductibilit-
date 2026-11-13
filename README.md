@@ -44,7 +44,7 @@ configs/sample.csv           l'échantillon : nos 4 programmes + 60 configuratio
 sample.py                    le script d'échantillonnage fourni
 templates/                   un template par langage (Python, JavaScript, C)
 run.py                       génère chaque programme de l'échantillon, le lance 5 fois, écrit les résultats
-causal.py                    deux petites expériences pour vérifier nos explications (Part 8)
+causal.py                    trois petites expériences pour vérifier nos explications (Part 8)
 results/                     les CSV de résultats, un par machine
 analyse.ipynb                le notebook d'analyse (Part 8)
 .github/workflows/           docker.yaml (labs 1 et 2) et experiments.yml (lab 3)
@@ -90,7 +90,7 @@ Pour le notebook : `pip install -r requirements-notebook.txt`, puis ouvrir `anal
 
 - La propriété testée change beaucoup le résultat.
 - L'écart entre nos résultats des labs 1 et 2 (75 % et 83 %) ne vient pas du langage. Il vient de la façon de tirer les nombres : générateur, intervalle, float ou double.
-- La machine ne change rien, sauf pour la distributivité en C : le résultat est différent sur ARM, à cause de l'instruction FMA.
+- La machine ne change rien, sauf pour le C sur ARM : le résultat est différent à cause de l'instruction FMA. C'est le cas de notre programme du lab 1, qui donne 75 % sur x86 et environ 78,7 % sur Ubuntu ARM.
 - Le nombre de répétitions ne change pas la valeur, seulement sa précision.
 
 ### Limites

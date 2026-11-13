@@ -1,4 +1,4 @@
-"""Deux expériences pour vérifier nos explications (Part 8, question causale).
+"""Trois expériences pour vérifier nos explications (Part 8, question causale).
 
     python causal.py
 
@@ -6,6 +6,8 @@
    Idée : ce qui compte, c'est le nombre de bits utiles des nombres tirés, pas le langage.
 2. fma : en C, distributivité, on change seulement les options de compilation.
    Idée : l'écart x86 / ARM vient de l'instruction FMA (x * y + z calculé en une seule fois).
+3. fma_assoc : pareil pour l'associativité avec des nombres entre 0 et 100 (notre C du lab 1).
+   Idée : gcc fusionne le "* 100" du tirage avec l'addition, pas clang.
 
 Résultats : results/causal_<OS>_<arch>.csv (dans GitHub Actions) ou results_local/ (en local).
 """
@@ -16,7 +18,7 @@ import shutil
 from jinja2 import Template
 
 from run import (CURRENT_OS, DRAWS, LANGUAGES, OUT, PROPERTIES, RESULTS, RUNS,
-                 compile_c, environment, execute, version)
+                 compile_c, environment, execute, scaled, version)
 
 REPETITIONS = 100000
 
@@ -48,22 +50,22 @@ def mantisse():
                    "percentage": execute({"Language": "Python"}, path)}
 
 
-def fma():
+def fma(experience, propriete, scale):
     """Une ligne par compilateur, par jeu d'options et par exécution."""
     template = Template(LANGUAGES["C"]["template"].read_text())
-    lhs, rhs = PROPERTIES["Distributivite"]
+    lhs, rhs = PROPERTIES[propriete]
     imp, ctype, draw = DRAWS[("C", "random", "double")]
-    source = OUT / "causal_fma.c"
-    source.write_text(template.render(lhs=lhs, rhs=rhs, imp=imp, type=ctype, draw=draw,
+    source = OUT / f"causal_{experience}.c"
+    source.write_text(template.render(lhs=lhs, rhs=rhs, imp=imp, type=ctype, draw=scaled(draw, scale),
                                       repetitions=REPETITIONS))
     for compiler in ["gcc", "clang"]:
         if shutil.which(compiler) is None:
-            print(f"fma : {compiler} n'est pas installé, ignoré")
+            print(f"{experience} : {compiler} n'est pas installé, ignoré")
             continue
         for i, flags in enumerate(FMA):
-            binary = compile_c(source, OUT / f"causal_fma_{compiler}_{i}", compiler, flags)
+            binary = compile_c(source, OUT / f"causal_{experience}_{compiler}_{i}", compiler, flags)
             for run in range(1, RUNS + 1):
-                yield {"experience": "fma", "Language": "C", "Propriete": "Distributivite",
+                yield {"experience": experience, "Language": "C", "Propriete": propriete,
                        "variante": f"{compiler} {' '.join(flags)}",
                        "compiler_version": version(compiler), "run": run,
                        "percentage": execute({"Language": "C"}, binary)}
@@ -74,7 +76,8 @@ def main():
     RESULTS.mkdir(exist_ok=True)
     env = environment()
     out = RESULTS / f"causal_{CURRENT_OS}_{platform.machine()}.csv"
-    rows = [{**row, "Repetitions": REPETITIONS, **env} for row in [*mantisse(), *fma()]]
+    experiences = [*mantisse(), *fma("fma", "Distributivite", 1), *fma("fma_assoc", "Associativite", 100)]
+    rows = [{**row, "Repetitions": REPETITIONS, **env} for row in experiences]
     with out.open("w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=rows[0].keys())
         writer.writeheader()
