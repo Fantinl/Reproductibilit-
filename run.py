@@ -5,7 +5,7 @@
 Seules les lignes d'un langage géré (LANGUAGES) et de l'OS courant sont lancées :
 sur Ubuntu les lignes Systeme=Ubuntu, sur macOS les lignes Systeme=MacOS.
 Les lignes C dont le compilateur n'est pas installé sont ignorées.
-Résultats : results/results_<OS>.csv (dans GitHub Actions) ou results_local/ (en local),
+Résultats : results/results_<OS>_<arch>.csv (dans GitHub Actions) ou results_local/ (en local),
 une ligne par exécution.
 """
 import csv
@@ -117,7 +117,7 @@ def main():
     env = environment()
 
     RESULTS.mkdir(exist_ok=True)
-    out = RESULTS / f"results_{CURRENT_OS}.csv"
+    out = RESULTS / f"results_{CURRENT_OS}_{platform.machine()}.csv"
     with out.open("w", newline="") as f:
         writer = None
         for row in todo:
