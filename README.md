@@ -103,7 +103,7 @@ Pour le notebook : `pip install -r requirements-notebook.txt`, puis ouvrir `anal
 
 - **ChatGPT** : programme JavaScript du lab 2 (`TP1/egal.js`).
 - **Gemini** : programme Python avec numpy (lab 3, part 1).
-- **Claude Code** (Anthropic, modèles Claude Opus 5.5 puis Claude Fable 5.2) : explications sur git, Docker et GitHub Actions ; aide sur l'écriture des workflows, de `run.py`, de `causal.py`, ajout des facteurs précision, intervalle et compilateur au modèle ; corrections sur le notebook et le readme.
+- **Claude Code** (Anthropic, modèles Claude Opus 5.5 puis Claude Fable 5.2) : explications sur git, Docker et GitHub Actions ; aide sur l'écriture des workflows, de `run.py`, de `causal.py`, ajout des facteurs précision, intervalle et compilateur au modèle ; corrections et améliorations sur le notebook notammment ajout de données précises sur les différentes configurations architecturales et logicielles et le readme.
 
 Ce qu'on a vérifié : on a relancé les scripts en local, regardé les programmes générés, comparé les résultats avec ceux des labs 1 et 2, et vérifié que les 3 jobs GitHub Actions passent.
 
