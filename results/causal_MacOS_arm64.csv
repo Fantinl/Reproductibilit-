@@ -1,61 +1,61 @@
 experience,Language,Propriete,variante,compiler_version,run,percentage,Repetitions,os,os_version,arch,python,node,commit
-mantisse,Python,Associativite,random(),,1,82.712,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,random(),,2,82.6,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,random(),,3,83.045,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,random(),,4,82.913,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,random(),,5,82.787,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,random() * 100,,1,74.861,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,random() * 100,,2,75.07,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,random() * 100,,3,75.086,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,random() * 100,,4,74.945,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,random() * 100,,5,74.93,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,1,74.727,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,2,74.547,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,3,74.441,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,4,74.484,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,5,74.397,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,randrange(2**31) / 2**31,,1,100.0,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,randrange(2**31) / 2**31,,2,100.0,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,randrange(2**31) / 2**31,,3,100.0,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,randrange(2**31) / 2**31,,4,100.0,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-mantisse,Python,Associativite,randrange(2**31) / 2**31,,5,100.0,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),1,69.26,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),2,69.281,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),3,69.114,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),4,69.277,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),5,69.257,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),1,64.647,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),2,64.688,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),3,64.773,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),4,64.906,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),5,64.772,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),1,69.473,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),2,69.224,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),3,69.377,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),4,69.194,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),5,69.208,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),1,64.901,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),2,64.781,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),3,64.657,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),4,64.855,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma,C,Distributivite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),5,64.65,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),1,74.815,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),2,74.806,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),3,74.846,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),4,74.943,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),5,74.955,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),1,74.817,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),2,74.941,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),3,74.917,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),4,74.962,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),5,74.601,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),1,75.027,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),2,75.077,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),3,75.011,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),4,74.999,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),5,74.384,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),1,74.83,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),2,75.143,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),3,74.822,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),4,75.113,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
-fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),5,74.974,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f
+mantisse,Python,Associativite,random(),,1,82.946,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,random(),,2,82.629,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,random(),,3,82.818,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,random(),,4,82.942,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,random(),,5,82.703,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,random() * 100,,1,75.2,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,random() * 100,,2,74.895,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,random() * 100,,3,75.014,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,random() * 100,,4,74.84,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,random() * 100,,5,75.159,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,1,74.649,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,2,74.465,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,3,74.512,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,4,74.604,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,5,74.454,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,randrange(2**31) / 2**31,,1,100.0,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,randrange(2**31) / 2**31,,2,100.0,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,randrange(2**31) / 2**31,,3,100.0,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,randrange(2**31) / 2**31,,4,100.0,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+mantisse,Python,Associativite,randrange(2**31) / 2**31,,5,100.0,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),1,69.288,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),2,69.275,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),3,69.305,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),4,69.191,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),5,69.452,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),1,64.612,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),2,64.821,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),3,64.745,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),4,64.752,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),5,64.92,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),1,69.211,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),2,69.184,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),3,69.313,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),4,69.187,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),5,69.155,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),1,64.493,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),2,64.943,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),3,65.018,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),4,64.568,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma,C,Distributivite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),5,64.626,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),1,75.038,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),2,75.03,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),3,74.97,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),4,74.728,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,gcc -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),5,75.031,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),1,74.917,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),2,74.617,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),3,74.828,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),4,75.15,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),5,74.82,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),1,74.976,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),2,74.934,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),3,74.821,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),4,74.573,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,clang -O2,Apple clang version 21.0.0 (clang-2100.1.1.101),5,74.899,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),1,74.916,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),2,74.732,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),3,74.943,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),4,74.933,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0
+fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Apple clang version 21.0.0 (clang-2100.1.1.101),5,74.93,100000,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0

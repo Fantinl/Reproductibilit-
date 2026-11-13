@@ -1,156 +1,156 @@
 config_id,origin_of_config,Repetitions,Language,Systeme,Propriete,Librairie,Precision,Intervalle,Compilateur,run,percentage,os,os_version,arch,python,node,commit,compiler_version,cflags
-llm.chatgpt.js,anchor,10000,JavaScript,MacOS,Associativite,random,double,Max100,,1,74.02,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-llm.chatgpt.js,anchor,10000,JavaScript,MacOS,Associativite,random,double,Max100,,2,75.25,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-llm.chatgpt.js,anchor,10000,JavaScript,MacOS,Associativite,random,double,Max100,,3,74.97,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-llm.chatgpt.js,anchor,10000,JavaScript,MacOS,Associativite,random,double,Max100,,4,74.34,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-llm.chatgpt.js,anchor,10000,JavaScript,MacOS,Associativite,random,double,Max100,,5,75.15,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-tp1.python,anchor,10000,Python,MacOS,Associativite,random,double,Max1,,1,82.52,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-tp1.python,anchor,10000,Python,MacOS,Associativite,random,double,Max1,,2,82.45,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-tp1.python,anchor,10000,Python,MacOS,Associativite,random,double,Max1,,3,82.6,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-tp1.python,anchor,10000,Python,MacOS,Associativite,random,double,Max1,,4,82.82,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-tp1.python,anchor,10000,Python,MacOS,Associativite,random,double,Max1,,5,83.3,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r02,random,100000,Python,MacOS,Associativite,numpy,double,Max1,,1,82.564,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r02,random,100000,Python,MacOS,Associativite,numpy,double,Max1,,2,82.848,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r02,random,100000,Python,MacOS,Associativite,numpy,double,Max1,,3,82.856,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r02,random,100000,Python,MacOS,Associativite,numpy,double,Max1,,4,82.88,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r02,random,100000,Python,MacOS,Associativite,numpy,double,Max1,,5,82.75,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r03,random,100000,Python,MacOS,Associativite,numpy,float,Max1,,1,74.506,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r03,random,100000,Python,MacOS,Associativite,numpy,float,Max1,,2,74.621,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r03,random,100000,Python,MacOS,Associativite,numpy,float,Max1,,3,74.666,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r03,random,100000,Python,MacOS,Associativite,numpy,float,Max1,,4,74.645,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r03,random,100000,Python,MacOS,Associativite,numpy,float,Max1,,5,74.709,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r04,random,100000,C,MacOS,Associativite,random,float,Max100,gcc,1,75.01,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r04,random,100000,C,MacOS,Associativite,random,float,Max100,gcc,2,75.1,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r04,random,100000,C,MacOS,Associativite,random,float,Max100,gcc,3,74.686,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r04,random,100000,C,MacOS,Associativite,random,float,Max100,gcc,4,75.021,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r04,random,100000,C,MacOS,Associativite,random,float,Max100,gcc,5,74.909,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r06,random,100000,C,MacOS,Associativite,random,float,Max1,gcc,1,74.559,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r06,random,100000,C,MacOS,Associativite,random,float,Max1,gcc,2,74.486,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r06,random,100000,C,MacOS,Associativite,random,float,Max1,gcc,3,74.724,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r06,random,100000,C,MacOS,Associativite,random,float,Max1,gcc,4,74.617,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r06,random,100000,C,MacOS,Associativite,random,float,Max1,gcc,5,74.636,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r07,random,10000,Python,MacOS,Associativite,numpy,float,Max100,,1,74.26,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r07,random,10000,Python,MacOS,Associativite,numpy,float,Max100,,2,75.11,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r07,random,10000,Python,MacOS,Associativite,numpy,float,Max100,,3,75.62,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r07,random,10000,Python,MacOS,Associativite,numpy,float,Max100,,4,73.75,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r07,random,10000,Python,MacOS,Associativite,numpy,float,Max100,,5,75.15,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r08,random,1000000,C,MacOS,Distributivite,random,double,Max1,gcc,1,69.2312,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r08,random,1000000,C,MacOS,Distributivite,random,double,Max1,gcc,2,69.298,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r08,random,1000000,C,MacOS,Distributivite,random,double,Max1,gcc,3,69.227,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r08,random,1000000,C,MacOS,Distributivite,random,double,Max1,gcc,4,69.2003,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r08,random,1000000,C,MacOS,Distributivite,random,double,Max1,gcc,5,69.1315,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r09,random,10000,C,MacOS,Associativite,random,float,Max100,gcc,1,76.12,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r09,random,10000,C,MacOS,Associativite,random,float,Max100,gcc,2,74.62,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r09,random,10000,C,MacOS,Associativite,random,float,Max100,gcc,3,74.89,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r09,random,10000,C,MacOS,Associativite,random,float,Max100,gcc,4,74.96,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r09,random,10000,C,MacOS,Associativite,random,float,Max100,gcc,5,75.38,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r10,random,10000,JavaScript,MacOS,Associativite,random,double,Max1,,1,82.41,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r10,random,10000,JavaScript,MacOS,Associativite,random,double,Max1,,2,82.91,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r10,random,10000,JavaScript,MacOS,Associativite,random,double,Max1,,3,82.6,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r10,random,10000,JavaScript,MacOS,Associativite,random,double,Max1,,4,82.62,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r10,random,10000,JavaScript,MacOS,Associativite,random,double,Max1,,5,82.27,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r12,random,10000,C,MacOS,Associativite,random,double,Max1,clang,1,74.84,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r12,random,10000,C,MacOS,Associativite,random,double,Max1,clang,2,74.68,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r12,random,10000,C,MacOS,Associativite,random,double,Max1,clang,3,74.75,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r12,random,10000,C,MacOS,Associativite,random,double,Max1,clang,4,74.88,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r12,random,10000,C,MacOS,Associativite,random,double,Max1,clang,5,75.41,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r14,random,1000000,C,MacOS,Associativite,random,double,Max100,clang,1,74.9045,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r14,random,1000000,C,MacOS,Associativite,random,double,Max100,clang,2,74.9251,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r14,random,1000000,C,MacOS,Associativite,random,double,Max100,clang,3,74.9315,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r14,random,1000000,C,MacOS,Associativite,random,double,Max100,clang,4,74.9069,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r14,random,1000000,C,MacOS,Associativite,random,double,Max100,clang,5,74.8054,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r16,random,100000,C,MacOS,Associativite,random,double,Max1,gcc,1,74.36,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r16,random,100000,C,MacOS,Associativite,random,double,Max1,gcc,2,74.353,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r16,random,100000,C,MacOS,Associativite,random,double,Max1,gcc,3,74.62,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r16,random,100000,C,MacOS,Associativite,random,double,Max1,gcc,4,74.546,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r16,random,100000,C,MacOS,Associativite,random,double,Max1,gcc,5,74.489,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r17,random,1000000,C,MacOS,Associativite,random,double,Max1,clang,1,74.6145,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r17,random,1000000,C,MacOS,Associativite,random,double,Max1,clang,2,74.4935,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r17,random,1000000,C,MacOS,Associativite,random,double,Max1,clang,3,74.5933,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r17,random,1000000,C,MacOS,Associativite,random,double,Max1,clang,4,74.6119,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r17,random,1000000,C,MacOS,Associativite,random,double,Max1,clang,5,74.5717,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r18,random,1000000,C,MacOS,Distributivite,random,float,Max100,clang,1,69.0236,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r18,random,1000000,C,MacOS,Distributivite,random,float,Max100,clang,2,68.9945,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r18,random,1000000,C,MacOS,Distributivite,random,float,Max100,clang,3,68.9782,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r18,random,1000000,C,MacOS,Distributivite,random,float,Max100,clang,4,69.022,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r18,random,1000000,C,MacOS,Distributivite,random,float,Max100,clang,5,69.0651,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r19,random,1000000,C,MacOS,Distributivite,random,float,Max1,clang,1,69.202,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r19,random,1000000,C,MacOS,Distributivite,random,float,Max1,clang,2,69.2178,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r19,random,1000000,C,MacOS,Distributivite,random,float,Max1,clang,3,69.2354,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r19,random,1000000,C,MacOS,Distributivite,random,float,Max1,clang,4,69.264,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r19,random,1000000,C,MacOS,Distributivite,random,float,Max1,clang,5,69.2044,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r21,random,1000000,Python,MacOS,Associativite,random,double,Max1,,1,82.8318,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r21,random,1000000,Python,MacOS,Associativite,random,double,Max1,,2,82.8028,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r21,random,1000000,Python,MacOS,Associativite,random,double,Max1,,3,82.7589,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r21,random,1000000,Python,MacOS,Associativite,random,double,Max1,,4,82.7402,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r21,random,1000000,Python,MacOS,Associativite,random,double,Max1,,5,82.7927,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r24,random,1000000,Python,MacOS,Distributivite,numpy,double,Max1,,1,68.8864,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r24,random,1000000,Python,MacOS,Distributivite,numpy,double,Max1,,2,68.8179,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r24,random,1000000,Python,MacOS,Distributivite,numpy,double,Max1,,3,68.9157,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r24,random,1000000,Python,MacOS,Distributivite,numpy,double,Max1,,4,68.9336,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r24,random,1000000,Python,MacOS,Distributivite,numpy,double,Max1,,5,69.0246,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r25,random,10000,C,MacOS,Distributivite,random,float,Max100,clang,1,69.15,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r25,random,10000,C,MacOS,Distributivite,random,float,Max100,clang,2,68.44,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r25,random,10000,C,MacOS,Distributivite,random,float,Max100,clang,3,69.36,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r25,random,10000,C,MacOS,Distributivite,random,float,Max100,clang,4,68.63,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r25,random,10000,C,MacOS,Distributivite,random,float,Max100,clang,5,68.69,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r33,random,10000,Python,MacOS,Distributivite,random,double,Max1,,1,68.13,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r33,random,10000,Python,MacOS,Distributivite,random,double,Max1,,2,67.73,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r33,random,10000,Python,MacOS,Distributivite,random,double,Max1,,3,69.35,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r33,random,10000,Python,MacOS,Distributivite,random,double,Max1,,4,69.17,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r33,random,10000,Python,MacOS,Distributivite,random,double,Max1,,5,68.01,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r34,random,10000,Python,MacOS,Distributivite,numpy,float,Max100,,1,65.19,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r34,random,10000,Python,MacOS,Distributivite,numpy,float,Max100,,2,63.76,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r34,random,10000,Python,MacOS,Distributivite,numpy,float,Max100,,3,64.72,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r34,random,10000,Python,MacOS,Distributivite,numpy,float,Max100,,4,65.17,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r34,random,10000,Python,MacOS,Distributivite,numpy,float,Max100,,5,63.84,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r35,random,1000000,C,MacOS,Associativite,random,double,Max1,gcc,1,74.5058,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r35,random,1000000,C,MacOS,Associativite,random,double,Max1,gcc,2,74.5418,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r35,random,1000000,C,MacOS,Associativite,random,double,Max1,gcc,3,74.5454,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r35,random,1000000,C,MacOS,Associativite,random,double,Max1,gcc,4,74.5977,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r35,random,1000000,C,MacOS,Associativite,random,double,Max1,gcc,5,74.574,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r36,random,10000,Python,MacOS,Distributivite,numpy,double,Max100,,1,65.29,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r36,random,10000,Python,MacOS,Distributivite,numpy,double,Max100,,2,63.99,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r36,random,10000,Python,MacOS,Distributivite,numpy,double,Max100,,3,64.03,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r36,random,10000,Python,MacOS,Distributivite,numpy,double,Max100,,4,65.05,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r36,random,10000,Python,MacOS,Distributivite,numpy,double,Max100,,5,65.18,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r40,random,10000,Python,MacOS,Associativite,numpy,double,Max1,,1,83.08,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r40,random,10000,Python,MacOS,Associativite,numpy,double,Max1,,2,82.44,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r40,random,10000,Python,MacOS,Associativite,numpy,double,Max1,,3,82.61,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r40,random,10000,Python,MacOS,Associativite,numpy,double,Max1,,4,82.35,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r40,random,10000,Python,MacOS,Associativite,numpy,double,Max1,,5,82.95,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r41,random,1000000,Python,MacOS,Associativite,numpy,float,Max1,,1,74.5782,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r41,random,1000000,Python,MacOS,Associativite,numpy,float,Max1,,2,74.6132,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r41,random,1000000,Python,MacOS,Associativite,numpy,float,Max1,,3,74.561,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r41,random,1000000,Python,MacOS,Associativite,numpy,float,Max1,,4,74.5652,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r41,random,1000000,Python,MacOS,Associativite,numpy,float,Max1,,5,74.6651,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r48,random,100000,Python,MacOS,Distributivite,random,double,Max100,,1,64.307,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r48,random,100000,Python,MacOS,Distributivite,random,double,Max100,,2,64.581,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r48,random,100000,Python,MacOS,Distributivite,random,double,Max100,,3,64.68,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r48,random,100000,Python,MacOS,Distributivite,random,double,Max100,,4,64.611,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r48,random,100000,Python,MacOS,Distributivite,random,double,Max100,,5,64.297,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r49,random,1000000,Python,MacOS,Distributivite,random,double,Max100,,1,64.4339,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r49,random,1000000,Python,MacOS,Distributivite,random,double,Max100,,2,64.5013,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r49,random,1000000,Python,MacOS,Distributivite,random,double,Max100,,3,64.5212,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r49,random,1000000,Python,MacOS,Distributivite,random,double,Max100,,4,64.4573,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r49,random,1000000,Python,MacOS,Distributivite,random,double,Max100,,5,64.523,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,,
-r52,random,10000,C,MacOS,Distributivite,random,float,Max1,clang,1,69.58,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r52,random,10000,C,MacOS,Distributivite,random,float,Max1,clang,2,69.75,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r52,random,10000,C,MacOS,Distributivite,random,float,Max1,clang,3,68.41,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r52,random,10000,C,MacOS,Distributivite,random,float,Max1,clang,4,70.0,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r52,random,10000,C,MacOS,Distributivite,random,float,Max1,clang,5,69.24,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r53,random,10000,C,MacOS,Associativite,random,double,Max100,gcc,1,75.36,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r53,random,10000,C,MacOS,Associativite,random,double,Max100,gcc,2,74.55,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r53,random,10000,C,MacOS,Associativite,random,double,Max100,gcc,3,74.94,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r53,random,10000,C,MacOS,Associativite,random,double,Max100,gcc,4,75.39,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r53,random,10000,C,MacOS,Associativite,random,double,Max100,gcc,5,75.25,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r57,random,100000,C,MacOS,Associativite,random,double,Max1,clang,1,74.688,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r57,random,100000,C,MacOS,Associativite,random,double,Max1,clang,2,74.324,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r57,random,100000,C,MacOS,Associativite,random,double,Max1,clang,3,74.347,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r57,random,100000,C,MacOS,Associativite,random,double,Max1,clang,4,74.345,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r57,random,100000,C,MacOS,Associativite,random,double,Max1,clang,5,74.426,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r58,random,100000,C,MacOS,Distributivite,random,double,Max100,gcc,1,68.944,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r58,random,100000,C,MacOS,Distributivite,random,double,Max100,gcc,2,69.189,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r58,random,100000,C,MacOS,Distributivite,random,double,Max100,gcc,3,69.215,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r58,random,100000,C,MacOS,Distributivite,random,double,Max100,gcc,4,69.019,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
-r58,random,100000,C,MacOS,Distributivite,random,double,Max100,gcc,5,69.13,Darwin,25.6.0,arm64,3.12.10,v24.22.2,95b678f,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+llm.chatgpt.js,anchor,10000,JavaScript,MacOS,Associativite,random,double,Max100,,1,74.79,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+llm.chatgpt.js,anchor,10000,JavaScript,MacOS,Associativite,random,double,Max100,,2,75.33,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+llm.chatgpt.js,anchor,10000,JavaScript,MacOS,Associativite,random,double,Max100,,3,74.57,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+llm.chatgpt.js,anchor,10000,JavaScript,MacOS,Associativite,random,double,Max100,,4,75.05,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+llm.chatgpt.js,anchor,10000,JavaScript,MacOS,Associativite,random,double,Max100,,5,75.32,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+tp1.python,anchor,10000,Python,MacOS,Associativite,random,double,Max1,,1,82.89,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+tp1.python,anchor,10000,Python,MacOS,Associativite,random,double,Max1,,2,83.18,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+tp1.python,anchor,10000,Python,MacOS,Associativite,random,double,Max1,,3,82.42,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+tp1.python,anchor,10000,Python,MacOS,Associativite,random,double,Max1,,4,81.93,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+tp1.python,anchor,10000,Python,MacOS,Associativite,random,double,Max1,,5,82.98,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r02,random,100000,Python,MacOS,Associativite,numpy,double,Max1,,1,83.091,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r02,random,100000,Python,MacOS,Associativite,numpy,double,Max1,,2,82.741,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r02,random,100000,Python,MacOS,Associativite,numpy,double,Max1,,3,82.79,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r02,random,100000,Python,MacOS,Associativite,numpy,double,Max1,,4,82.915,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r02,random,100000,Python,MacOS,Associativite,numpy,double,Max1,,5,82.751,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r03,random,100000,Python,MacOS,Associativite,numpy,float,Max1,,1,74.547,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r03,random,100000,Python,MacOS,Associativite,numpy,float,Max1,,2,74.766,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r03,random,100000,Python,MacOS,Associativite,numpy,float,Max1,,3,74.59,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r03,random,100000,Python,MacOS,Associativite,numpy,float,Max1,,4,74.525,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r03,random,100000,Python,MacOS,Associativite,numpy,float,Max1,,5,74.698,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r04,random,100000,C,MacOS,Associativite,random,float,Max100,gcc,1,74.749,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r04,random,100000,C,MacOS,Associativite,random,float,Max100,gcc,2,75.181,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r04,random,100000,C,MacOS,Associativite,random,float,Max100,gcc,3,74.926,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r04,random,100000,C,MacOS,Associativite,random,float,Max100,gcc,4,74.909,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r04,random,100000,C,MacOS,Associativite,random,float,Max100,gcc,5,74.925,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r06,random,100000,C,MacOS,Associativite,random,float,Max1,gcc,1,74.277,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r06,random,100000,C,MacOS,Associativite,random,float,Max1,gcc,2,75.05,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r06,random,100000,C,MacOS,Associativite,random,float,Max1,gcc,3,74.62,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r06,random,100000,C,MacOS,Associativite,random,float,Max1,gcc,4,74.525,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r06,random,100000,C,MacOS,Associativite,random,float,Max1,gcc,5,74.523,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r07,random,10000,Python,MacOS,Associativite,numpy,float,Max100,,1,75.07,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r07,random,10000,Python,MacOS,Associativite,numpy,float,Max100,,2,75.08,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r07,random,10000,Python,MacOS,Associativite,numpy,float,Max100,,3,74.39,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r07,random,10000,Python,MacOS,Associativite,numpy,float,Max100,,4,74.62,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r07,random,10000,Python,MacOS,Associativite,numpy,float,Max100,,5,74.39,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r08,random,1000000,C,MacOS,Distributivite,random,double,Max1,gcc,1,69.1914,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r08,random,1000000,C,MacOS,Distributivite,random,double,Max1,gcc,2,69.389,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r08,random,1000000,C,MacOS,Distributivite,random,double,Max1,gcc,3,69.2541,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r08,random,1000000,C,MacOS,Distributivite,random,double,Max1,gcc,4,69.306,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r08,random,1000000,C,MacOS,Distributivite,random,double,Max1,gcc,5,69.2894,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r09,random,10000,C,MacOS,Associativite,random,float,Max100,gcc,1,75.05,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r09,random,10000,C,MacOS,Associativite,random,float,Max100,gcc,2,74.71,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r09,random,10000,C,MacOS,Associativite,random,float,Max100,gcc,3,75.44,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r09,random,10000,C,MacOS,Associativite,random,float,Max100,gcc,4,74.52,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r09,random,10000,C,MacOS,Associativite,random,float,Max100,gcc,5,74.08,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r10,random,10000,JavaScript,MacOS,Associativite,random,double,Max1,,1,82.81,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r10,random,10000,JavaScript,MacOS,Associativite,random,double,Max1,,2,82.94,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r10,random,10000,JavaScript,MacOS,Associativite,random,double,Max1,,3,82.94,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r10,random,10000,JavaScript,MacOS,Associativite,random,double,Max1,,4,82.74,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r10,random,10000,JavaScript,MacOS,Associativite,random,double,Max1,,5,83.03,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r12,random,10000,C,MacOS,Associativite,random,double,Max1,clang,1,74.77,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r12,random,10000,C,MacOS,Associativite,random,double,Max1,clang,2,74.52,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r12,random,10000,C,MacOS,Associativite,random,double,Max1,clang,3,74.13,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r12,random,10000,C,MacOS,Associativite,random,double,Max1,clang,4,74.53,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r12,random,10000,C,MacOS,Associativite,random,double,Max1,clang,5,74.46,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r14,random,1000000,C,MacOS,Associativite,random,double,Max100,clang,1,74.9399,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r14,random,1000000,C,MacOS,Associativite,random,double,Max100,clang,2,74.9094,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r14,random,1000000,C,MacOS,Associativite,random,double,Max100,clang,3,74.9102,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r14,random,1000000,C,MacOS,Associativite,random,double,Max100,clang,4,74.9213,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r14,random,1000000,C,MacOS,Associativite,random,double,Max100,clang,5,74.9418,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r16,random,100000,C,MacOS,Associativite,random,double,Max1,gcc,1,74.419,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r16,random,100000,C,MacOS,Associativite,random,double,Max1,gcc,2,74.538,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r16,random,100000,C,MacOS,Associativite,random,double,Max1,gcc,3,74.645,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r16,random,100000,C,MacOS,Associativite,random,double,Max1,gcc,4,74.669,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r16,random,100000,C,MacOS,Associativite,random,double,Max1,gcc,5,74.396,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r17,random,1000000,C,MacOS,Associativite,random,double,Max1,clang,1,74.5583,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r17,random,1000000,C,MacOS,Associativite,random,double,Max1,clang,2,74.5547,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r17,random,1000000,C,MacOS,Associativite,random,double,Max1,clang,3,74.568,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r17,random,1000000,C,MacOS,Associativite,random,double,Max1,clang,4,74.494,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r17,random,1000000,C,MacOS,Associativite,random,double,Max1,clang,5,74.5903,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r18,random,1000000,C,MacOS,Distributivite,random,float,Max100,clang,1,68.9852,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r18,random,1000000,C,MacOS,Distributivite,random,float,Max100,clang,2,69.0197,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r18,random,1000000,C,MacOS,Distributivite,random,float,Max100,clang,3,69.0446,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r18,random,1000000,C,MacOS,Distributivite,random,float,Max100,clang,4,69.0678,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r18,random,1000000,C,MacOS,Distributivite,random,float,Max100,clang,5,69.0583,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r19,random,1000000,C,MacOS,Distributivite,random,float,Max1,clang,1,69.2416,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r19,random,1000000,C,MacOS,Distributivite,random,float,Max1,clang,2,69.2593,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r19,random,1000000,C,MacOS,Distributivite,random,float,Max1,clang,3,69.2021,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r19,random,1000000,C,MacOS,Distributivite,random,float,Max1,clang,4,69.2907,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r19,random,1000000,C,MacOS,Distributivite,random,float,Max1,clang,5,69.1354,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r21,random,1000000,Python,MacOS,Associativite,random,double,Max1,,1,82.7555,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r21,random,1000000,Python,MacOS,Associativite,random,double,Max1,,2,82.8163,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r21,random,1000000,Python,MacOS,Associativite,random,double,Max1,,3,82.7842,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r21,random,1000000,Python,MacOS,Associativite,random,double,Max1,,4,82.7885,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r21,random,1000000,Python,MacOS,Associativite,random,double,Max1,,5,82.7507,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r24,random,1000000,Python,MacOS,Distributivite,numpy,double,Max1,,1,68.9793,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r24,random,1000000,Python,MacOS,Distributivite,numpy,double,Max1,,2,68.9051,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r24,random,1000000,Python,MacOS,Distributivite,numpy,double,Max1,,3,68.975,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r24,random,1000000,Python,MacOS,Distributivite,numpy,double,Max1,,4,69.0151,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r24,random,1000000,Python,MacOS,Distributivite,numpy,double,Max1,,5,68.9315,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r25,random,10000,C,MacOS,Distributivite,random,float,Max100,clang,1,69.0,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r25,random,10000,C,MacOS,Distributivite,random,float,Max100,clang,2,69.0,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r25,random,10000,C,MacOS,Distributivite,random,float,Max100,clang,3,68.87,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r25,random,10000,C,MacOS,Distributivite,random,float,Max100,clang,4,68.34,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r25,random,10000,C,MacOS,Distributivite,random,float,Max100,clang,5,69.31,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r33,random,10000,Python,MacOS,Distributivite,random,double,Max1,,1,68.14,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r33,random,10000,Python,MacOS,Distributivite,random,double,Max1,,2,69.59,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r33,random,10000,Python,MacOS,Distributivite,random,double,Max1,,3,68.58,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r33,random,10000,Python,MacOS,Distributivite,random,double,Max1,,4,68.31,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r33,random,10000,Python,MacOS,Distributivite,random,double,Max1,,5,68.78,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r34,random,10000,Python,MacOS,Distributivite,numpy,float,Max100,,1,64.51,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r34,random,10000,Python,MacOS,Distributivite,numpy,float,Max100,,2,65.06,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r34,random,10000,Python,MacOS,Distributivite,numpy,float,Max100,,3,64.69,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r34,random,10000,Python,MacOS,Distributivite,numpy,float,Max100,,4,64.46,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r34,random,10000,Python,MacOS,Distributivite,numpy,float,Max100,,5,65.33,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r35,random,1000000,C,MacOS,Associativite,random,double,Max1,gcc,1,74.5045,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r35,random,1000000,C,MacOS,Associativite,random,double,Max1,gcc,2,74.5292,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r35,random,1000000,C,MacOS,Associativite,random,double,Max1,gcc,3,74.5649,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r35,random,1000000,C,MacOS,Associativite,random,double,Max1,gcc,4,74.5788,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r35,random,1000000,C,MacOS,Associativite,random,double,Max1,gcc,5,74.5475,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r36,random,10000,Python,MacOS,Distributivite,numpy,double,Max100,,1,64.79,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r36,random,10000,Python,MacOS,Distributivite,numpy,double,Max100,,2,64.26,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r36,random,10000,Python,MacOS,Distributivite,numpy,double,Max100,,3,64.29,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r36,random,10000,Python,MacOS,Distributivite,numpy,double,Max100,,4,64.15,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r36,random,10000,Python,MacOS,Distributivite,numpy,double,Max100,,5,63.84,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r40,random,10000,Python,MacOS,Associativite,numpy,double,Max1,,1,82.82,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r40,random,10000,Python,MacOS,Associativite,numpy,double,Max1,,2,82.87,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r40,random,10000,Python,MacOS,Associativite,numpy,double,Max1,,3,82.91,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r40,random,10000,Python,MacOS,Associativite,numpy,double,Max1,,4,82.55,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r40,random,10000,Python,MacOS,Associativite,numpy,double,Max1,,5,82.56,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r41,random,1000000,Python,MacOS,Associativite,numpy,float,Max1,,1,74.5469,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r41,random,1000000,Python,MacOS,Associativite,numpy,float,Max1,,2,74.6752,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r41,random,1000000,Python,MacOS,Associativite,numpy,float,Max1,,3,74.5868,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r41,random,1000000,Python,MacOS,Associativite,numpy,float,Max1,,4,74.5668,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r41,random,1000000,Python,MacOS,Associativite,numpy,float,Max1,,5,74.5601,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r48,random,100000,Python,MacOS,Distributivite,random,double,Max100,,1,64.585,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r48,random,100000,Python,MacOS,Distributivite,random,double,Max100,,2,64.758,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r48,random,100000,Python,MacOS,Distributivite,random,double,Max100,,3,64.376,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r48,random,100000,Python,MacOS,Distributivite,random,double,Max100,,4,64.338,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r48,random,100000,Python,MacOS,Distributivite,random,double,Max100,,5,64.553,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r49,random,1000000,Python,MacOS,Distributivite,random,double,Max100,,1,64.4666,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r49,random,1000000,Python,MacOS,Distributivite,random,double,Max100,,2,64.4692,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r49,random,1000000,Python,MacOS,Distributivite,random,double,Max100,,3,64.4806,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r49,random,1000000,Python,MacOS,Distributivite,random,double,Max100,,4,64.552,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r49,random,1000000,Python,MacOS,Distributivite,random,double,Max100,,5,64.4478,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,,
+r52,random,10000,C,MacOS,Distributivite,random,float,Max1,clang,1,69.06,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r52,random,10000,C,MacOS,Distributivite,random,float,Max1,clang,2,69.37,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r52,random,10000,C,MacOS,Distributivite,random,float,Max1,clang,3,69.18,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r52,random,10000,C,MacOS,Distributivite,random,float,Max1,clang,4,68.65,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r52,random,10000,C,MacOS,Distributivite,random,float,Max1,clang,5,68.65,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r53,random,10000,C,MacOS,Associativite,random,double,Max100,gcc,1,75.19,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r53,random,10000,C,MacOS,Associativite,random,double,Max100,gcc,2,74.94,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r53,random,10000,C,MacOS,Associativite,random,double,Max100,gcc,3,75.05,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r53,random,10000,C,MacOS,Associativite,random,double,Max100,gcc,4,75.02,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r53,random,10000,C,MacOS,Associativite,random,double,Max100,gcc,5,74.91,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r57,random,100000,C,MacOS,Associativite,random,double,Max1,clang,1,74.556,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r57,random,100000,C,MacOS,Associativite,random,double,Max1,clang,2,74.724,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r57,random,100000,C,MacOS,Associativite,random,double,Max1,clang,3,74.513,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r57,random,100000,C,MacOS,Associativite,random,double,Max1,clang,4,74.761,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r57,random,100000,C,MacOS,Associativite,random,double,Max1,clang,5,74.71,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r58,random,100000,C,MacOS,Distributivite,random,double,Max100,gcc,1,69.025,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r58,random,100000,C,MacOS,Distributivite,random,double,Max100,gcc,2,69.048,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r58,random,100000,C,MacOS,Distributivite,random,double,Max100,gcc,3,68.945,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r58,random,100000,C,MacOS,Distributivite,random,double,Max100,gcc,4,69.171,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
+r58,random,100000,C,MacOS,Distributivite,random,double,Max100,gcc,5,69.067,Darwin,25.6.0,arm64,3.12.10,v24.22.2,df7a2b0,Apple clang version 21.0.0 (clang-2100.1.1.101),-O2
