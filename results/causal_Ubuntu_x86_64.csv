@@ -1,101 +1,101 @@
 experience,Language,Propriete,variante,compiler_version,run,percentage,Repetitions,os,os_version,arch,python,node,commit
-mantisse,Python,Associativite,random(),,1,82.726,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,random(),,2,82.978,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,random(),,3,82.773,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,random(),,4,82.834,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,random(),,5,82.828,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,random() * 100,,1,74.905,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,random() * 100,,2,75.047,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,random() * 100,,3,75.031,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,random() * 100,,4,74.778,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,random() * 100,,5,74.859,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,1,74.702,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,2,74.589,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,3,74.729,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,4,74.571,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,5,74.825,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,randrange(2**31) / 2**31,,1,100.0,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,randrange(2**31) / 2**31,,2,100.0,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,randrange(2**31) / 2**31,,3,100.0,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,randrange(2**31) / 2**31,,4,100.0,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-mantisse,Python,Associativite,randrange(2**31) / 2**31,,5,100.0,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,1,64.731,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,2,64.471,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,3,64.732,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,4,64.778,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,5,64.5,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,1,64.677,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,2,64.987,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,3,64.853,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,4,64.544,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,5,64.687,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,1,69.063,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,2,68.878,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,3,69.297,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,4,69.269,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,5,69.113,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,1,64.533,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,2,64.97,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,3,64.895,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,4,64.536,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,5,64.723,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),1,64.653,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),2,64.639,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),3,64.529,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),4,64.962,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),5,64.528,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),1,64.777,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),2,64.65,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),3,64.646,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),4,64.51,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),5,64.534,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),1,69.338,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),2,69.2,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),3,69.374,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),4,69.118,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),5,69.086,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),1,64.871,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),2,64.58,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),3,64.568,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),4,65.078,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma,C,Distributivite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),5,64.828,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,1,74.872,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,2,74.822,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,3,75.034,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,4,74.839,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,5,74.676,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,1,75.135,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,2,75.089,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,3,74.826,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,4,74.94,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,5,74.934,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,1,78.953,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,2,78.792,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,3,78.73,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,4,78.834,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,5,78.869,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,1,74.872,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,2,75.034,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,3,74.958,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,4,74.936,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,5,74.864,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),1,75.1,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),2,75.167,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),3,74.66,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),4,74.903,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),5,74.631,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),1,74.817,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),2,74.6,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),3,75.108,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),4,74.712,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),5,74.715,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),1,74.846,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),2,74.934,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),3,75.013,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),4,74.906,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),5,74.923,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),1,74.995,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),2,74.863,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),3,75.002,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),4,75.023,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
-fma_assoc,C,Associativite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),5,74.891,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,209605b
+mantisse,Python,Associativite,random(),,1,82.813,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,random(),,2,82.78,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,random(),,3,82.959,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,random(),,4,82.869,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,random(),,5,82.863,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,random() * 100,,1,75.012,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,random() * 100,,2,75.259,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,random() * 100,,3,75.136,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,random() * 100,,4,74.722,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,random() * 100,,5,75.078,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,1,74.446,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,2,74.477,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,3,74.642,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,4,74.732,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,randrange(2**31) / (2**31 - 1),,5,74.629,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,randrange(2**31) / 2**31,,1,100.0,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,randrange(2**31) / 2**31,,2,100.0,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,randrange(2**31) / 2**31,,3,100.0,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,randrange(2**31) / 2**31,,4,100.0,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+mantisse,Python,Associativite,randrange(2**31) / 2**31,,5,100.0,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,1,64.434,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,2,64.732,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,3,64.259,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,4,64.959,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,5,64.648,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,1,64.687,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,2,64.579,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,3,64.614,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,4,64.887,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,5,64.396,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,1,69.16,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,2,69.072,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,3,69.306,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,4,69.286,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,5,68.97,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,1,64.683,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,2,64.512,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,3,64.519,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,4,64.828,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,5,64.8,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),1,64.551,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),2,64.825,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),3,64.579,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),4,64.564,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),5,64.992,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),1,64.685,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),2,64.991,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),3,64.733,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),4,64.609,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),5,64.577,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),1,69.484,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),2,69.452,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),3,69.131,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),4,69.16,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),5,69.0,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),1,64.549,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),2,65.045,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),3,64.847,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),4,64.794,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma,C,Distributivite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),5,64.654,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,1,75.062,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,2,74.832,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,3,74.93,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,4,74.929,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,5,74.843,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,1,75.035,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,2,74.865,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,3,74.777,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,4,74.687,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2 -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,5,74.718,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,1,78.867,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,2,78.771,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,3,78.619,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,4,78.709,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2 -mfma,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,5,78.846,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,1,74.617,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,2,74.841,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,3,74.791,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,4,74.66,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,gcc -O2 -mfma -ffp-contract=off,gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0,5,75.048,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),1,74.99,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),2,74.707,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),3,74.924,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),4,75.05,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2,Ubuntu clang version 18.1.3 (1ubuntu1),5,74.895,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),1,74.769,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),2,74.787,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),3,75.153,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),4,74.772,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2 -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),5,74.704,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),1,75.039,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),2,75.067,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),3,75.016,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),4,74.878,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2 -mfma,Ubuntu clang version 18.1.3 (1ubuntu1),5,74.817,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),1,74.721,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),2,75.02,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),3,75.079,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),4,74.839,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
+fma_assoc,C,Associativite,clang -O2 -mfma -ffp-contract=off,Ubuntu clang version 18.1.3 (1ubuntu1),5,74.895,100000,Linux,7.0.0-1017-azure,x86_64,3.12.16,v24.22.2,95b678f
